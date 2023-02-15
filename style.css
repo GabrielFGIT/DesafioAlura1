@@ -1,0 +1,160 @@
+*{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    background: #E5E5E5;
+    
+}
+
+body{
+    text-align: center;
+    
+}
+
+
+.logo{
+    
+    display: block;
+
+}
+
+main{
+ 
+    display: inline-block;
+    width: 60%;
+  
+}
+
+.mensajeDesencriptado{
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.areaT{
+    
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    width: 90%;
+    height: 440px;
+    margin: 5px auto;   
+}
+
+.indicacion{
+    height: 20px;
+    margin-bottom: 10px;
+    width: 90%; 
+    margin:0% auto 
+        
+}
+
+
+
+p{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    text-align: left;
+    
+}
+
+.boton-encriptar, .boton-desencriptar{
+    border-radius: 5px;
+    width: 45%;
+    height: 50px;
+    
+}
+
+
+
+.mensaje{
+    
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    height: 590px;   
+    border: none; 
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.imagenEspera{
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+
+.mensajeProcesado{
+    width: 90%;
+    height: 490px;
+    margin-top: 5px;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: red solid 2px;
+    display: none;
+
+}
+
+.ningunMensaje{
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+}
+
+.ningunMensajeSub{
+    background: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+}
+
+.boton-copiar{
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    display: none;
+ 
+   }
+
+   footer p{
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #495057;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+    font-size: large;
+    
+    
+   }
+
+
+

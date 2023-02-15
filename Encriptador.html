@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="/Users/gabri/OneDrive/Escritorio/DesafioAlura1/style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Encriptador</title>
+
+        
+    </head>
+
+
+    <body>
+
+        <header>
+
+            <img src="imagenes/Frame 6.svg" class="logo" alt="logo">
+           
+        </header>
+
+        <main>
+
+            <section class="sectionTexto">
+                <div class="areaTexto">
+                
+                    <textarea placeholder="Ingrese el texto aquí" class="areaT"></textarea>
+                
+                </div>
+                
+                <div class="indicacion">
+
+                    <p>* Solo letras minúsculas y sin acentos</p>
+
+                </div>
+            </section>
+
+            <section>
+               
+                <div >
+
+                    <input type="submit" value="Encriptar" class="boton-encriptar">
+                
+                    <input type="submit" value="Desencriptar" class="boton-desencriptar">
+                
+                </div>
+                                      
+            </section>
+
+        </main>
+
+        <section class="mensaje">
+
+
+            <div class="mensajeDesencriptado">
+                                
+                <textarea class="mensajeProcesado"></textarea>
+
+                <img src="imagenes/Muneco.jpg" class="imagenEspera">
+
+                <p class="ningunMensaje">Ningún mensaje fue encontrado</p>
+                <p class="ningunMensajeSub">Ingrese el texto que desee encriptar o desencriptar</p>
+
+                <input type="submit" value="Copiar" class="boton-copiar">
+
+            </div>
+
+        </section>
+
+        <footer>
+
+            <p>Primer desafio en Alura - Gabriel Eduardo Franco Vargas - Bogotá Colombia</p>
+
+        </footer>
+    </body>
+
+    <script>
+
+        var botonEncriptar = document.querySelector(".boton-encriptar");
+        botonEncriptar.onclick = replace;
+        
+        var botonDesencriptar = document.querySelector(".boton-desencriptar")
+        botonDesencriptar.onclick = replaceBack;
+        
+        var botonCopiar = document.querySelector(".boton-copiar")
+        botonCopiar.onclick = copy;
+
+
+    </script>
+
+</html>
+
